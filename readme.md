@@ -1,11 +1,11 @@
-** Hello, welcome to my test app **
+# Hello, welcome to my test app
 
-DEPLOYED APP: ()
+** DEPLOYED APP: 96.60.1.149:3000 **
 
 I have spent a total of 8.15 hours on this app.
 I can proudly say that my CSS ended up looking great for a quick app! (CSS is indeed my weakness)
 
-Things to note:
+# Things to note:
 1) It's responsive, so please try it in your phone as well.
 2)  I deviated from the image instructions because I wanted to go above and beyond.
 
@@ -29,10 +29,10 @@ The list is populated via a fetch request AFTER the page loads, && then populate
 
 6) I'm 100% certain that more type checking is necessary for fields such as the email etc. Kept that tedium out. Assume it's done, similar to password hashes.
 
+# LAUNCHING IT YOURSELF:
 
 I decided to "merge" the server and the client into one folder for convenience sake.
 
-LAUNCHING IT YOURSELF:
 1) npm install, of course (in ./client folder for REACT, in base folder for SERVER)
 2) have MYSQL hosted on your PC
 3) plug in DB info into .env file
@@ -41,7 +41,7 @@ LAUNCHING IT YOURSELF:
 6) in another console, navigate to ./ and type "npm run server"
 7) If you have issues on your own SQL server, be sure to run prisma generate commands
 
-** New Tech Skills Learned **
+# New Tech Skills Learned
 1) Prisma
 
 In some respects? Really, really cool. Wasn't quite as neat as I initially anticipated, as SQL queries to create the tables are still necessary whereas I was under the impression that Prisma would renovate SQL. However, I'm sure there's a mountain of features within Prisma I'm not aware of yet. How useful it is in comparison to regular SQL queries isn't certain.
@@ -52,4 +52,4 @@ It's in demand, and it's cool. I can definitely see how code maintainability wou
 
 ** Wrapping up **
 
-Thanks for giving me the opportunity to introduce myself to React. It's bare-bones close-to-javascript style makes me already like it more than Angular, which just feels bloated.
+Thanks for giving me the opportunity to introduce myself to React. It's bare-bones close-to-javascript style makes me already like it more than Angular, which I would describe as bloated.
